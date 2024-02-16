@@ -5,6 +5,7 @@ import "./App.css";
 import SearchBar from "./components/SearchBar";
 import searchImg from "./api";
 import ImageList from "./components/ImageList";
+import ImageShow from "./components/ImageShow";
 
 function App() {
   const [images, setImages] = useState([]);
