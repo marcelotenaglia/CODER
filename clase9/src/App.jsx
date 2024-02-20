@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Galeria from "./pages/Galeria";
 import Productos from "./pages/Productos";
 import Layout from "./pages/Layout";
+import ProductDetail from "./pages/ProductDetail";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="galeria" element={<Galeria />} />
             <Route path="productos" element={<Productos />} />
+            <Route path="productos/:productoId" element={<ProductDetail />} />
           </Route>
           <Route path="*" element={<div>404 no encontrado</div>} />
         </Routes>
