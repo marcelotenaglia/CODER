@@ -29,7 +29,7 @@ function App() {
         <button className="button is-link" onClick={agregar}>
           {" "}
           +{" "}
-        </button>
+        </button> 
       </div>
       <div></div>
     </div>
