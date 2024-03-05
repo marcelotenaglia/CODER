@@ -14,14 +14,14 @@ function App() {
 
   const quitar = () => {
     if (cantidad > 1) {
-      setCantidad(cantidad - 1);
+      setCantidad(cantidad - 1); 
     }
   };
 
   return (
     <div className="counter">
       <div className="controls">
-        <button className="button is-danger" onClick={quitar}>
+        <button className="button is-danger" onClick={quitar}> 
           {" "}
           -{" "}
         </button>
