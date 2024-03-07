@@ -11,6 +11,7 @@ import {
   deleteDoc,
   updateDoc,
 } from "firebase/firestore";
+import Auth from "./components/Auth";
 
 function App() {
   const [itemList, setItemList] = useState([]);
@@ -63,6 +64,7 @@ function App() {
 
   return (
     <div>
+      <Auth />
       <div>
         <h2>Nuevo Producto</h2>
         <input
